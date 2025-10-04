@@ -1,4 +1,8 @@
- 
+
+* {
+font-family: Roboto;
+}
+
 header, footer {
       margin: 0.2em;
       padding: 0.5em;
@@ -38,3 +42,4 @@ header, footer {
     }
     a:hover {
       color: red;
+

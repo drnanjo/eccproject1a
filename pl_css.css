@@ -1,64 +1,40 @@
  
-body {
-  
-  max-width: 1200px;
-  margin: auto;
-  background-color: lightblue;
-  color: darkblue;
-  font-family: Roboto;
-}
-
-
-h1 {
-
-   font-size: 2em;
+header, footer {
+      margin: 0.2em;
+      padding: 0.5em;
+      background-color: #D2691E;
+      text-align: center;
+    }  
+    .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     }    
- 
- .flex-container {
-  display: flex; /* Establishes the flex context */
-  gap: 20px; /* Adds space between the main and aside elements */
-}
-
- main {
-  flex: 1; /* Tells the main element to grow and fill the available space */
-}
-
- aside {
-  flex-basis: 500px; /* Gives the aside element a fixed starting width */
-  flex-shrink: 0; /* Prevents the aside from shrinking below its initial width */
-}
-
-
-
-footer {
-    margin-top: 50px;
-    border:2px solid darkblue;
-    border-radius: 20px;
-    background-color: #777;
-    padding: 10px;
-    text-align: center;
-    color: white;
-}
-
-/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left; /* If you want the text to be left-aligned on small screens */
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+    nav {
+    margin: 0.2em;
+    min-height: 8em;
+    padding: 0.5em;  
+    width: 10%;
+    background-color: lightgreen;
+    text-align: center;  
+    }
+    .column {
+    margin: 0.2em;
+    min-height: 8em;
+    padding: 1em;
+    width: 65%;
+    background-color: #9df5d7;  
+    }
+    aside {
+    margin: 0.2em;
+    min-height: 8em;
+    padding: 1em;
+    width: 20%;
+    background-color: lightBlue;
+    }
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      color: red;

@@ -11,7 +11,7 @@ body {
 
 h1 {
 
-        font-size: 2em;
+   font-size: 2em;
     }    
  
  .flex-container {
@@ -49,6 +49,7 @@ footer {
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
 }
+
 
 
 

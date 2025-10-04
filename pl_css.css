@@ -14,26 +14,21 @@ h1 {
         font-size: 2em;
     }    
  
+ .flex-container {
+  display: flex; /* Establishes the flex context */
+  gap: 20px; /* Adds space between the main and aside elements */
+}
+
+ main {
+  flex: 1; /* Tells the main element to grow and fill the available space */
+}
+
+ aside {
+  flex-basis: 500px; /* Gives the aside element a fixed starting width */
+  flex-shrink: 0; /* Prevents the aside from shrinking below its initial width */
+}
 
 
- .container {
-        display: flex; /* Makes the container a flex container */
-        /* Optional properties for alignment and spacing: */
-        justify-content: space-between; /* Distributes space between items */
-        align-items: flex-start; /* Aligns items to the start of the cross-axis */
-        gap: 20px; /* Adds a gap between flex items */
-    }
-
-    main {
-        flex: 1; /* Allows main to grow and shrink, taking up available space */
-    }
-
-    aside {
-        flex: 50%; /* Set a fixed width for the aside or use flex-basis */
-        background-color: darkblue;
-        color: white;
-        /* Or use flex: 0 0 300px; for fixed width and no shrinking/growing */
-    }
 
 footer {
     margin-top: 50px;
@@ -54,6 +49,7 @@ footer {
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
 }
+
 
 
 

@@ -1,16 +1,13 @@
  
 body {
   
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   background-color: lightblue;
   color: darkblue;
   font-family: Roboto;
 }
 
-
-
- 
 
 h1 {
         text-align: center;
@@ -57,6 +54,7 @@ footer {
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
 }
+
 
 
 

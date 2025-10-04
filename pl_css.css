@@ -9,15 +9,7 @@ body {
 }
 
 
-/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left; /* If you want the text to be left-aligned on small screens */
-  }
-}
+
  
 
 h1 {
@@ -25,25 +17,7 @@ h1 {
         font-size: 2em;
     }    
  
-    div {
-        margin-top: 100px;
-        padding: 50px 200px 50px 250px;
-        border:2px solid darkblue;
-        border-radius: 20px;
-        background-color: darkgrey;
-        
-    }
 
-    
-    footer {
-    margin-top: 50px;
-    border:2px solid darkblue;
-    border-radius: 20px;
-    background-color: #777;
-    padding: 10px;
-    text-align: center;
-    color: white;
-}
 
  .container {
         display: flex; /* Makes the container a flex container */
@@ -59,9 +33,30 @@ h1 {
 
     aside {
         width: 300px; /* Set a fixed width for the aside or use flex-basis */
+        background-color: darkblue;
+        color: white;
         /* Or use flex: 0 0 300px; for fixed width and no shrinking/growing */
     }
 
+footer {
+    margin-top: 50px;
+    border:2px solid darkblue;
+    border-radius: 20px;
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
 
 
 

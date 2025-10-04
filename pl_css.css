@@ -1,7 +1,7 @@
+  body {
+        font-family: 'Roboto', sans-serif;
+    }
 
-* {
-font-family: Roboto;
-}
 
 header, footer {
       margin: 0.2em;
@@ -42,4 +42,5 @@ header, footer {
     }
     a:hover {
       color: red;
+
 
